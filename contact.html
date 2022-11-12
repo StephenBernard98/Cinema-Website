@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>Dream Cinemas</title>
+    <link rel="shortcut icon" href="./media/images/abstract-video-camera-icon-vector-image_csp9525227.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/f05d9aeca8.js" crossorigin="anonymous"></script>
+   <style>
+
+    body {
+        background: url(./media/images/dark.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+      
+    .main-wrapper-icon1 a {
+    color: #fff;
+    font-size:30px;
+    transition: .6s;
+    }
+
+    
+.fa-envelope {
+    margin-top: 20px;
+}
+
+
+.fa-house, .fa-users, .fa-clapperboard{
+    margin-top: 20px;
+}
+
+
+.main-wrapper-icon1 a:hover {
+    color: rgb(214, 46, 46);
+}
+
+
+    .main-wrapper1 {
+    display: flex;
+    min-height: 0px;
+    background-color: rgb(8, 24, 41);
+    padding: 0px;
+    position: fixed;
+    left: 0px;
+    top: 30%;
+    }
+    
+    .main-wrapper-icon1 {
+      display: flex;
+      margin: 15px;
+      align-self: flex-start;
+      flex-direction: column;
+    }
+
+
+    @keyframes new-animation {
+      0% {
+        background:linear-gradient(to top right, rgba(7, 6, 6, 0.5), rgb(1, 17, 32));
+      }
+
+      25% {
+        background:linear-gradient(to top right, rgba(0,0,0,.5), rgb(1, 17, 32));
+      }
+
+      50% {
+        background:linear-gradient(to bottom left, rgba(27, 27, 27, 0.5), rgb(27, 27, 26));
+      }
+
+      75% {
+        background:linear-gradient(to top right, rgba(0,0,0,.5), rgb(23, 23, 24));
+      }
+
+      100% {
+        background:linear-gradient(to top right, rgba(48, 30, 30, 0.219), rgb(26, 25, 25));
+      }
+    }
+
+    
+    @media screen and (max-width: 900px) {
+    
+    .main-wrapper1 {
+    display: flex;
+    min-height: 0px;
+    /* background-color: rgb(20, 11, 11); */
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    }
+    
+    .main-wrapper-icon1 {
+      display: flex;
+      margin: 5px;
+      align-self: flex-start;
+      flex-direction: row;
+    
+    }
+    .main-wrapper-icon1 a {
+    color: #fff;
+    font-size:30px;
+    transition: .6s;
+    margin: 10px 90px;
+    }
+  }
+
+  @media (max-width: 790px) {
+        .main-wrapper-icon1 a {
+            margin: 7px 55px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .main-wrapper-icon1 a {
+            margin: 5px 35px;
+        }
+    }
+
+    .contact{
+      margin-top: 70px;
+    }
+   </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact">
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="name" class="lab" id="my-name">Name:</label> <br>
+                <input type="text" class="inp name" placeholder="input name" required> <br>
+
+                <label for="email" class="lab" id="mail">Email:</label> <br>
+                <input type="email" class="inp email" placeholder="input email" required> <br>
+                
+                <label for="number" class="lab" id="my-number">Number:
+                </label> <br>
+                <input type="number" class="inp number" placeholder="input number (Optional)" > <br>
+
+                <textarea name="my-text" id="text" cols="30" rows="10">send us your message</textarea> <br>
+
+                <input type="button" value="Send" onclick="send()" class="send" id="send">
+
+
+            </fieldset>
+        </div>
+    </div>
+    
+    
+      <footer>
+        <div class="main-wrapper1">
+          <div class="main-wrapper-icon1">
+     <a href="index.html"><i class="fa-solid fa-house"></i></a> 
+     <a href="about.html"> <i class="fa-solid fa-users"></i></a> 
+     <a href="movies.html"><i class="fa-solid fa-clapperboard"></i></a> 
+     <a href="contact.html"> <i class="fa-solid fa-envelope"></i></i></a> 
+  </div>
+      </footer>
+</body>
+</html>

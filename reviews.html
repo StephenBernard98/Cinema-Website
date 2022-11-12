@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>Dream Cinemas</title>
+    <link rel="shortcut icon" href="./media/images/abstract-video-camera-icon-vector-image_csp9525227.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/f05d9aeca8.js" crossorigin="anonymous"></script>
+   <style>
+    body {
+        animation: new-animation 5s infinite;
+    }
+        
+    @keyframes new-animation {
+      0% {
+        background:linear-gradient(to top right, rgba(7, 6, 6, 0.5), rgb(1, 17, 32));
+      }
+
+      25% {
+        background:linear-gradient(to top right, rgba(0,0,0,.5), rgb(1, 17, 32));
+      }
+
+      50% {
+        background:linear-gradient(to bottom left, rgba(27, 27, 27, 0.5), rgb(27, 27, 26));
+      }
+
+      75% {
+        background:linear-gradient(to top right, rgba(0,0,0,.5), rgb(23, 23, 24));
+      }
+
+      100% {
+        background:linear-gradient(to top right, rgba(48, 30, 30, 0.219), rgb(26, 25, 25));
+      }
+    }
+
+    
+    .main-wrapper-icon1 a {
+    color: #fff;
+    font-size:30px;
+    transition: .6s;
+    margin: 10px;
+    }
+
+
+.fa-house, .fa-users, .fa-clapperboard, .fa-envelope {
+    margin-top: 20px;
+}
+
+
+.main-wrapper-icon1 a:hover {
+    color: rgb(214, 46, 46);
+}
+
+
+    .main-wrapper1 {
+    display: flex;
+    min-height: 0px;
+    background-color: rgb(20, 11, 11);
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    /* right: 0; */
+    top: 0;
+    flex-direction: column;
+    }
+    
+    .main-wrapper-icon1 {
+      display: flex;
+      margin: 15px;
+      align-self: flex-start;
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: 900px) {
+    
+    .main-wrapper1 {
+    display: flex;
+    min-height: 0px;
+    background-color: rgb(20, 11, 11);
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    }
+    
+    .main-wrapper-icon1 {
+      display: flex;
+      margin: 5px;
+      align-self: flex-start;
+      flex-direction: row;
+    
+    }
+    .main-wrapper-icon1 a {
+    color: #fff;
+    font-size:30px;
+    transition: .6s;
+    margin: 10px 90px;
+    }
+
+
+    .container {
+        margin: 100px 20px 60px;
+    }
+
+    }
+
+    @media (max-width: 790px) {
+        .main-wrapper-icon1 a {
+            margin: 7px 55px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .main-wrapper-icon1 a {
+            margin: 5px 35px;
+        }
+    }
+
+    .container {
+        opacity: 0;
+        animation: view-opacity 5s 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes view-opacity {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapped-container">
+            <div class="section">
+            <img src="./media/images/Stella.jpg" alt="Stella">
+            <h3>Stella Jude</h3>
+        </div>
+        <p>So I finally watched the movie "Anikulapo". It's actually a good one. Kudos to the director, producers and everyone that made the movie a success.</p>
+        </div>
+
+        <div class="wrapped-container">
+        <div class="section">
+            <img src="./media/images/Ifeoma.jpg" alt="Ifeoma">
+            <h3>Ifeoma Chinenye</h3>
+        </div>
+        <p>Black Adam!!!!!!!!!!</p>
+            </div>
+
+            <div class="wrapped-container">
+        <div class="section">
+            <img src="./media/images/Chibest.jpeg" alt="Gideon">
+            <h3>Nwachukwu Gideon</h3>
+        </div>
+        <p>Woman King is lit!!! Swears black women are so lovable in action.</p>
+        </div>
+            
+        <div class="wrapped-container">
+        <div class="section">
+            <img src="./media/images/Cynthia.jpg" alt="Cynthia">
+            <h3>Nwobu Cynthia</h3>
+        </div>
+        <p>Am I the only one who can't help but admire the serenity of the cinema? I heard of Dream Cinemas from a friend who was just praising the aesthetics of the environment and it's wonderful viewing systems and i decided to try it out. Dream Cinemas, you rock. 100% you got from me</p>
+        </div>
+
+           
+        <div class="wrapped-container">
+            <div class="section">
+                <img src="./media/images/Mary.jpg" alt="Son-of-Mary">
+                <h3>Son of Mary</h3>
+            </div>
+            <p> Dahmer is really a psychopath. Jeeez!!!</p>
+            </div>
+            
+        <div class="wrapped-container">
+        <div class="section">
+            <img src="./media/images/Ifeoma Awanyai.jpg" alt="Awanyai">
+            <h3>Ifeoma Awanyai</h3>
+        </div>
+        <p>Yea, Yea @Cynthia. The cinema environment is wonderful and I really enjoyed their popcorns. You know a new company always tries to give it's best until Nigeria Nigeria's it. you know what I mean. Hehehe</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="main-wrapper1">
+          <div class="main-wrapper-icon1">
+     <a href="index.html"><i class="fa-solid fa-house"></i></a> 
+     <a href="about.html"> <i class="fa-solid fa-users"></i></a> 
+     <a href="movies.html"><i class="fa-solid fa-clapperboard"></i></a> 
+     <a href="contact.html"> <i class="fa-solid fa-envelope"></i></a> 
+  </div>
+      </footer>
+</body>
+</html>
