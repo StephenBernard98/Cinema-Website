@@ -181,3 +181,58 @@ function send() {
 function ignore() {
   document.getElementById("myModal").style.display ="none";
 }
+
+
+function ignore1() {
+  document.getElementById("myModal1").style.display ="none";
+}
+
+
+function ignore2() {
+  document.getElementById("myModal2").style.display ="none";
+}
+
+
+function ignore3() {
+  document.getElementById("myModal3").style.display ="none";
+}
+
+
+function ignore4() {
+  document.getElementById("myModal4").style.display ="none";
+}
+
+
+function ignore5() {
+  document.getElementById("myModal5").style.display ="none";
+}
+
+
+function ignore6() {
+  document.getElementById("myModal6").style.display ="none";
+}
+
+
+function ignore7() {
+  document.getElementById("myModal7").style.display ="none";
+}
+
+
+function ignore8() {
+  document.getElementById("myModal8").style.display ="none";
+}
+
+
+function ignore9() {
+  document.getElementById("myModal9").style.display ="none";
+}
+
+
+function ignore10() {
+  document.getElementById("myModal10").style.display ="none";
+}
+
+
+function ignore11() {
+  document.getElementById("myModal11").style.display ="none";
+}
