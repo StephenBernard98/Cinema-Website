@@ -176,3 +176,8 @@ window.location ="reviews.html";
 function send() {
   alert("Your message has been sent to Dream Cinemas! Thanks for contacting us.");
 }
+
+
+function ignore() {
+  document.getElementById("myModal").style.display ="none";
+}
