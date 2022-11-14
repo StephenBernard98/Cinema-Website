@@ -489,12 +489,12 @@ textarea {
     }
 
     .wrapper-2 video {
-        max-width: 80%;
+        min-width: 80%;
         margin-left: 30px;
     }
 
     .wrapper-2 p {
-        max-width: 100%;
+        width: 100%;
         display: none;
     }
 
