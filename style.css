@@ -324,6 +324,9 @@ main {
     margin: 5px 40px;
     pointer-events: auto;
   }
+
+  .button-1 {
+      margin-botto: 30px;
   
   .close {
     color: #aaaaaa;
