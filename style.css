@@ -500,6 +500,7 @@ textarea {
 
     .content {
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 80px;
     }
 
     .wipe-paragraph {
