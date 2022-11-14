@@ -597,8 +597,8 @@ textarea {
     }
 
         .modal {
-            width: 80%;
-            left: 8%;
+            width: 100%;
+            left: 1%;
         }
   
         .main-wrapper-icon {
