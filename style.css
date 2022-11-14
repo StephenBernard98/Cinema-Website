@@ -580,7 +580,7 @@ textarea {
     }
    
     .wipe {
-        margin: 30px;
+        margin: 10px;
     }
 
         .content {
@@ -596,7 +596,7 @@ textarea {
 
         .modal {
             width: 80%;
-            left: 18%;
+            left: 8%;
         }
   
         .main-wrapper-icon {
