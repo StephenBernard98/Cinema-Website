@@ -489,12 +489,12 @@ textarea {
     }
 
     .wrapper-2 video {
-        width: 80%;
+        max-width: 80%;
         margin-left: 30px;
     }
 
     .wrapper-2 p {
-        width: 100%;
+        max-width: 100%;
         display: none;
     }
 
@@ -508,7 +508,7 @@ textarea {
     }
 
     .wipe {
-        margin: 30px 120px;
+        margin: 10px 120px;
     }
 
     video {
@@ -520,7 +520,7 @@ textarea {
    }
     
     .content .vidz {
-        margin: 15px 10px 50px;
+        margin: 15px 10px 30px;
     }
 
     .main-wrapper-icon {
@@ -528,7 +528,7 @@ textarea {
     }
 
     .modal {
-        width: 45%;
+        width: 50%;
     }
    
     .side-bar {
@@ -540,7 +540,7 @@ textarea {
     }
 
     .head-wrapper {
-        height: 100px;
+        min-height: 100px;
     }   
     
     .logo {
