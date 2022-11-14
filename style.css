@@ -328,9 +328,11 @@ main {
   .close {
     color: #aaaaaa;
     float: right;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: bold;
     transition: .6s;
+    margin-left: 10px;
+    padding 0 5px;
   }
   
   .close:hover,
@@ -338,6 +340,7 @@ main {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+    background-color: red;
   }
   
 .container {
