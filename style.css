@@ -592,7 +592,9 @@ textarea {
         margin: 15px 0px 0px;
     }
 
-    
+    .main-wrapper-icon {
+        padding: 10px 5px 
+    }
 
         .modal {
             width: 80%;
