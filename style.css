@@ -568,7 +568,7 @@ textarea {
     }
 
     .head-container {
-        max-height: 40vh;
+        min-height: 55vh;
     }
 
     .logo {
