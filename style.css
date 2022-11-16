@@ -603,13 +603,18 @@ textarea {
     }
 
         .modal {
-            width: 100%;
-            left: 1%;
+            width: 80%;
+            left: 0%;
         }
   
         .main-wrapper-icon {
             margin-right: 5px;
+            justify-content: start;
+            position: sticky;
+            top: 0;
+            align-self: flex-start;
     }
+    
      .modal-content {
             padding: 10px;
         }
