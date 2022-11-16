@@ -569,6 +569,9 @@ textarea {
     .head-wrapper {
         flex-direction: column;
     }
+    
+    .main-wrapper-icon {
+        height: 100vh;
 
     .head-container {
         max-height: 64vh;
