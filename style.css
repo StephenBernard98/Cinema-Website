@@ -571,7 +571,7 @@ textarea {
     }
     
     .main-wrapper-icon {
-        height: 100vh;
+        min-height: 100vh;
     }
     .head-container {
         max-height: 64vh;
