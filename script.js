@@ -99,7 +99,7 @@ function info() {
  }
 
 function trial() {
-  alert("Movie booked!");
+  alert("Ticket booked!");
   document.getElementById("myModal").style.display = "none";
 }
 
