@@ -233,7 +233,7 @@ main {
     margin: 10px 0;
 }
 
-.fa-house, .fa-users, .fa-clapperboard{
+.fa-house, .fa-users, .fa-clapperboard, .fa-user-plus{
     margin-top: 50px;
 }
 
@@ -497,6 +497,62 @@ textarea {
     display: none;
 }
 
+
+.form-wrapper {
+    padding: 30px;
+    background: url(./media/images/small.jpg);
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 10px auto;
+    animation: login 2s 1;
+}
+
+
+@keyframes login {
+    0% {
+        transform: translateY(200%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.check {
+    margin-right: 60px;
+    color: rgb(240, 215, 215);
+    font-weight: bold;
+}
+
+.form-container .main {
+    width: 120px;
+   margin-left: 20px;
+}
+
+.form-container a {
+    color: #5043fc;
+}
+
+
+.form-container span {
+    color: rgb(240, 215, 215);
+    font-weight: bold;
+}
+
+.form-container fieldset {
+    border: 6px dashed grey;
+}
+
+.register {
+    width: 400px;
+}
+
+.register legend {
+    color: #fff;
+}
 
 @media (max-width: 900px) {
     .wrapper-2 {
