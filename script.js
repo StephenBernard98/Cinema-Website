@@ -236,3 +236,13 @@ function ignore10() {
 function ignore11() {
   document.getElementById("myModal11").style.display ="none";
 }
+
+
+function register() {
+  document.getElementById("form-container").style.display = "block";
+ }
+  
+ function sending() {
+  document.getElementById("form-container").style.display = "none";
+  window.location = "index.html";
+ }
