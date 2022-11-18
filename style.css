@@ -202,6 +202,11 @@ main {
     padding: 40px;
 }
 
+.side-bar a {
+    text-decoration: none;
+}
+
+
 .span-1, .span-3 {
     font-size:30px;
     font-style:oblique;
