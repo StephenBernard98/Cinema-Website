@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Cinemas</title>
+    <link rel="shortcut icon" href="./media/images/abstract-video-camera-icon-vector-image_csp9525227.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/f05d9aeca8.js" crossorigin="anonymous"></script>
+   <style>
+     
+     
+     .main-wrapper-icon1 a {
+    color: #fff;
+    font-size:30px;
+    transition: .6s;
+    }
+
+
+.fa-house, .fa-users, .fa-clapperboard, .fa-envelope{
+    margin-top: 20px;
+}
+
+
+.main-wrapper-icon1 a:hover {
+    color: rgb(214, 46, 46);
+}
+
+
+    .main-wrapper1 {
+    display: flex;
+    min-height: 0px;
+    background-color: rgb(8, 24, 41);
+    padding: 0px;
+    position: fixed;
+    left: 0px;
+    top: 30%;
+    }
+    
+    .main-wrapper-icon1 {
+      display: flex;
+      margin: 15px;
+      align-self: flex-start;
+      flex-direction: column;
+    }
+
+
+    .modal {
+        left: 35%;
+    }
+
+    
+  .modal-content {
+    border-radius: 10px;
+    padding: 7px;
+  }
+
+    .form-container a {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    
+    
+    @media screen and (max-width: 900px) {
+    
+    .main-wrapper1 {
+    display: flex;
+    min-height: 0px;
+    /* background-color: rgb(20, 11, 11); */
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    }
+    
+    .main-wrapper-icon1 {
+      display: flex;
+      margin: 5px;
+      align-self: flex-start;
+      flex-direction: row;
+    
+    }
+    .main-wrapper-icon1 a {
+    color: #fff;
+    font-size:30px;
+    transition: .6s;
+    margin: 10px 90px;
+    }
+  }
+
+  @media (max-width: 790px) {
+        .main-wrapper-icon1 a {
+            margin: 7px 55px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .main-wrapper-icon1 a {
+            margin: 5px 30px;
+        }
+
+        .form-container{
+         margin-top: 60px;
+    }
+
+    
+    .modal {
+        left: 0%;
+        width: 100%;
+    }
+
+    
+  .modal-content {
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 320px;
+    overflow: auto;
+  }
+
+     .send {
+        display: block;
+        margin-top: 0;
+    }
+
+    span {
+        display: block;
+        text-align: center;
+        
+    } 
+
+    }
+
+
+   </style>
+</head>
+<body>
+    <form action="get" method="get">
+        <div class="form-wrapper">
+            <div class="form-container" id="first-form">
+              <fieldset>
+                <legend>Login</legend>
+                <label for="name" class="lab" id="my-name">Username:</label> <br>
+                <input type="text" class="inp name" placeholder="username" required> <br>
+
+                <label for="password" class="lab" id="password">Password:</label> <br>
+                <input type="password" class="inp password" placeholder="password" required> <br>
+
+                <input type="checkbox" name="check" id="check">
+                <label for="check" class="check">remember me</label>
+
+                <a href="password.html">forgot password</a> <br>
+                
+                <input type="button" value="Login" onclick="login()" class="send sent" id="send">
+
+                <span>Don't have an account?</span> 
+
+               <input type="button" value="Sign up" onclick="register()" class="main sign">
+
+              </fieldset>
+
+            </div>
+        </div>
+
+        <div id="form-container" class="modal">
+        <div class="register form-container">
+            <div class="modal-content">
+            <fieldset>
+                <legend>Register</legend>
+                <label for="name" class="lab" id="my-name">Username:</label> <br>
+                <input type="text" class="inp name" placeholder="input name" required> <br>
+
+                <label for="email" class="lab" id="mail">Email:</label> <br>
+                <input type="email" class="inp email" placeholder="input email" required> <br>
+                
+                <label for="number" class="lab" id="my-number">Number:
+                </label> <br>
+                <input type="text" class="inp number" placeholder="input number (Optional)" > <br>
+
+                <label for="password" class="lab" id="password">Password:</label> <br>
+                <input type="password" class="inp password" placeholder="password" required> <br>
+
+                <input type="button" value="Register" onclick="sending()" class="send" id="send">
+                 </div>
+            </div>
+        </div>
+
+    </form>
+
+    <footer>
+        <div class="main-wrapper1">
+          <div class="main-wrapper-icon1">
+     <a href="index.html"><i class="fa-solid fa-house"></i></a> 
+     <a href="about.html"> <i class="fa-solid fa-users"></i></a> 
+     <a href="movies.html"><i class="fa-solid fa-clapperboard"></i></a> 
+     <a href="contact.html"> <i class="fa-solid fa-envelope"></i></i></a> 
+  </div>
+      </footer>
+</body>
+</html>
