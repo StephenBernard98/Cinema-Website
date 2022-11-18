@@ -193,11 +193,23 @@ main {
 
 .side-bar p {
     margin: 30px auto;
-    text-align: center;
-    line-height: 1.3;
-    font-size: 22px;
+    line-height: 5;
+    font-size: 30px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background: rgb(4, 24, 46);
+    padding: 40px;
+}
+
+.span-1, .span-3 {
+    font-size:30px;
+    font-style:oblique;
+    font-weight: bolder;
+    font-family: monospace;
+    transform: skewX(-14deg);
+    letter-spacing: .12em;
+    text-shadow: 4px 4px 6px grey;
 }
 
 .span-2 {
@@ -207,8 +219,7 @@ main {
     font-family: monospace;
     font-style: italic;
     font-weight: bolder;
-    letter-spacing: .06em;
-    
+    letter-spacing: .06em; 
 }
 
 .side-bar img {
